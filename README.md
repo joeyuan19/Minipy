@@ -1,32 +1,49 @@
 Minipy
 ========
 
-
+## Description
 
 Python script to minify JS, CSS, and other code files eventually
 
+---
 
+## Usage
+
+Minification can be done by running the python script in the following fashion:
+
+	python minifyJS.py fileOneToMinify.js fileTwoToMinify.js folderOneToMinify
+
+The program will out put a file: `original_file_name.min.js`
+
+Minified files will be outputted to the same directory they are originally found.
+
+
+---
+
+## To do
+
+- [ ] Add Examples
 
 - [-] Implement JS
 
-	- [+] Remove comments
+	- [+] Remove Comments
 
-	- [+] Remove empty lines
+	- [+] Remove Empty Lines
 
-	- [+] Put all code on one line
+	- [+] Reduce Code on one Line
 
 	- [+] Ensure Semicolons
 
-	- [ ] Refactor variable names
+	- [ ] Refactor Variable Names
 
-		- [ ] Issue of compatibility with associated HTML files
+		- [ ] Issue of Compatibility With Associated HTML Files
 
 
 - [ ] Implement CSS
 
-	- [ ] Remove comments
+	- [ ] Remove Comments
 
-	- [ ] Put all code on one line
+	- [ ] Reduce Code on one Line
 
 
 
