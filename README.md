@@ -9,7 +9,7 @@ Python script to minify JS, CSS, and other code files eventually
 
 - [-] Implement JS
 
-	- [x] Remove comments
+	- [+] Remove comments
 
 	- [+] Remove empty lines
 
