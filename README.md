@@ -7,23 +7,23 @@ Python script to minify JS, CSS, and other code files eventually
 
 
 
-[-] Implement JS
+*[-] Implement JS
 
-	[+] Remove comments
+	*[+] Remove comments
 
-	[+] Remove empty lines
+	*[+] Remove empty lines
 
-	[+] Put all code on one line
+	*[+] Put all code on one line
 
-	[+] Ensure Semicolons
+	*[+] Ensure Semicolons
 
-	[ ] Refactor variable names
+	*[ ] Refactor variable names
 
-		[ ] Issue of compatibility with associated HTML files
+		*[ ] Issue of compatibility with associated HTML files
 
 
 
-[ ] Implement CSS
+*[ ] Implement CSS
 
 	[ ] Remove comments
 
