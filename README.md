@@ -25,7 +25,8 @@ Minified files will be outputted to the same directory they are originally found
 	- [+] Remove Comments
 	- [+] Remove Empty Lines
 	- [+] Reduce Code on one Line
-	- [+] Ensure Semicolons
+	- [-] Ensure Semicolons
+		- [ ] Switch to regex switch to avoid adding to if statements and for loops
 	- [ ] Refactor Variable Names
 		- [ ] Issue of Compatibility With Associated HTML Files
 - [ ] Implement CSS
