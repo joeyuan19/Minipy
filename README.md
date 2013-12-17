@@ -7,7 +7,7 @@ Python script to minify JS, CSS, and other code files eventually
 
 
 
-*[-] Implement JS
+* [-] Implement JS
 
 	[+] Remove comments
 
@@ -23,7 +23,7 @@ Python script to minify JS, CSS, and other code files eventually
 
 
 
-*[ ] Implement CSS
+* [ ] Implement CSS
 
 	[ ] Remove comments
 
