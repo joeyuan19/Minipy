@@ -9,8 +9,6 @@ Python script to minify JS, CSS, and other code files eventually
 
 #### Usage
 
-***
-
 Minification can be done by running the python script in the following fashion:
 
 	python minifyJS.py fileOneToMinify.js fileTwoToMinify.js folderOneToMinify
@@ -24,20 +22,13 @@ Minified files will be outputted to the same directory they are originally found
 
 #### To do
 
-- [ ] Add Examples
-
+- [ ] Add Examples  
 - [-] Implement JS
-
 	- [+] Remove Comments
-
 	- [+] Remove Empty Lines
-
 	- [+] Reduce Code on one Line
-
 	- [+] Ensure Semicolons
-
 	- [ ] Refactor Variable Names
-
 		- [ ] Issue of Compatibility With Associated HTML Files
 
 
