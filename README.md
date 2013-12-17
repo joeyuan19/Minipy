@@ -30,15 +30,8 @@ Minified files will be outputted to the same directory they are originally found
 	- [+] Ensure Semicolons
 	- [ ] Refactor Variable Names
 		- [ ] Issue of Compatibility With Associated HTML Files
-
-
 - [ ] Implement CSS
-
 	- [ ] Remove Comments
-
 	- [ ] Reduce Code on one Line
-
-
-
 
 
