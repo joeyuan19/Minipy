@@ -9,6 +9,8 @@ Python script to minify JS, CSS, and other code files eventually
 
 #### Usage
 
+***
+
 Minification can be done by running the python script in the following fashion:
 
 	python minifyJS.py fileOneToMinify.js fileTwoToMinify.js folderOneToMinify
