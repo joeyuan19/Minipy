@@ -1,13 +1,13 @@
 Minipy
 ========
 
-## Description
+#### Description
 
 Python script to minify JS, CSS, and other code files eventually
 
 ---
 
-## Usage
+#### Usage
 
 Minification can be done by running the python script in the following fashion:
 
@@ -20,7 +20,7 @@ Minified files will be outputted to the same directory they are originally found
 
 ---
 
-## To do
+#### To do
 
 - [ ] Add Examples
 
