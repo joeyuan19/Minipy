@@ -55,7 +55,6 @@ def remove_whitespace(content):
 				if len(buf)-len(js_kw) > -1 and buf[-len(js_kw):] == js_kw:
 					space_found = False
 					if len(buf)-len(js_kw)-1 > 0:
-						print buf[-len(js_kw)-1:],
 						if buf[-len(js_kw)-1] not in js_flags:
 							space_found = True
 		if not space_found:
@@ -118,7 +117,7 @@ flags = {
 }
 
 if __name__ == "__main__":
-	usage_msg =	"Usage: python minifyJS.py --flag -flag(s) firstFileToMinify.js secondFileToMinify.js ..."; 
+	usage_msg =	"Usage: python mini.py --flag -flag(s) firstFileToMinify.js secondFileToMinify.js ..."; 
 	filenames = []
 	for arg in sys.argv:
 		if arg[0] == '-' and arg[1] == '-':
@@ -131,7 +130,10 @@ if __name__ == "__main__":
 		else:
 			filenames.append(arg)
 	if flags['help']:
-		print usage_msg
+		print 'Welcome to minipy!\nThis is a script to minify code files, removing unnecessary characters and reducing the file size\n'
+		print
+		print "\t",usage_msg
+		print 
 		print "\t-h, --help\t\tShow this message"
 		print "\t-v, --verbose\t\tShow more information"
 		print "\t-d, --debug\t\tShow more information than verbose"
@@ -139,6 +141,7 @@ if __name__ == "__main__":
 		sys.exit(1)
 	if len(filenames) <= 1:
 		print "No argument provided.",usage_msg 
+		print "For more information run: python mini.py --help"
 		sys.exit(1)
 	for filename in filenames:
 		if filename != __file__:
